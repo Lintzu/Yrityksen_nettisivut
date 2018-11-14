@@ -1,0 +1,102 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+
+    <title> Nettisivu </title>
+    <script src="script.js"></script>
+    <style>
+        #myDIV {
+            border: 1px solid black;
+            -webkit-animation: mymove 5s infinite;
+            /* Safari 4.0 - 8.0 */
+            animation: mymove 5s infinite;
+            margin: 0 auto
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes mymove {
+            50% {
+                border: 15px solid black;
+            }
+        }
+
+        @keyframes mymove {
+            50% {
+                border: 15px solid black;
+            }
+        }
+
+        body {
+            background-image: url('images/kuva.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: large;
+
+        }
+
+        h1 {
+            font-size: 50px;
+            color: black;
+            text-align-last: center;
+        }
+
+        h2 {
+            font-size: 30px;
+            color:black;
+            text-align-last: left;
+            padding: 20px;
+            width: 300px;
+            resize: both;
+            overflow: auto;
+        }
+
+        h3 {
+            font-size: 30px;
+            color:black;
+        }
+
+        ul {
+            font-size: 20px;
+            color: black;
+            text-align-last: left;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid red;
+            text-align: center;
+        }
+        a {
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDIV" class="container">
+
+        <article>
+            <h1> Hey, this is our company HITEC </h1>
+        </article>
+
+        <h2> Palvelut: </h2>
+        <ul>
+
+            <li> Sovelluksia </li>
+            <li> Laitteistoa </li>
+
+        </ul>
+        <p> </p>
+        <button onclick="runCode()">Click me</button>
+    </div>
+    <p><b><a href="https://github.com/Lintzu" target="_blank">This is a link to some of my projects</a></b></p>
+    <p><b><a href="https://www.facebook.com/linnea.pekkanen" target="_blank">This is a link to my facebook page</a></b></p>
+
+    <h3> About HITEC: </h3>
+ <ul>          </ul>
+
+</body>
+
+</html>
